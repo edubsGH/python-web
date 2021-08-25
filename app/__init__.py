@@ -1,6 +1,6 @@
 from flask import Flask
 
-from flask_mail import Mail
+from flaskext.mail import Mail
 from flask_login import LoginManager
 from flask_bootstrap import Bootstrap
 from flask_wtf.csrf import CSRFProtect
